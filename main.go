@@ -28,15 +28,14 @@ func main() {
 		},
 	})
 
-	// Instantiate a template registry and register all html files inside the view folder
-
 	e := echo.New()
 	e.HideBanner = true
 	e.Static("/js", "js")
 	e.Static("/css", "css")
+	// Instantiate a template registry and register all html files inside the view folder
 	e.Renderer = &TemplateRegistry{templates: template.Must(template.ParseGlob("view/*.html"))}
 
-	// init ids
+	// init users
 	for i := 0; i < 2500; i++ {
 		id := uuid.New()
 		u := ffuser.NewUser(id.String())
