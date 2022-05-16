@@ -1,11 +1,14 @@
 # GO Feature Flag demo
 
-This repository contains a demo app which display a webapp containing a grid of users.  
-Each square is a different user.  
+This repository contains a demo app using the library [`thomaspoignant/go-feature-flag`](https://github.com/thomaspoignant/go-feature-flag) which display a webapp containing a grid of users.  
+Each square is a different user and can be change by modifying the feature flag `color-box`.
+
 
 With this demo app you can modify your flag and visually see which users are impacted by the change.
 
 https://user-images.githubusercontent.com/17908063/168597717-489d64e6-3e52-4d3c-aa7c-86f89dabd278.mp4
+
+In this example we can see how randomly the flag apply to only a percentage of the users.
 
 
 ## About the app
