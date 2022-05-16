@@ -22,7 +22,7 @@ To build the app you have to run these command:
 
 ```shell
 go mod vendor # to retrieve dependencies
-go buid .
+go build .
 ```
 
 ## Report a problem
