@@ -25,4 +25,4 @@ go buid .
 ## Report a problem
 If you have any issue with this demo app you can open an issue.
 
-If the problem is related to the SDK please open the issue in the [`thomaspoignant/go-feature-flag` repository](https://github.com/thomaspoignant/go-feature-flag/issues/new/choose).
+If the problem is related to the SDK please open the issue in the [`thomaspoignant/go-feature-flag`](https://github.com/thomaspoignant/go-feature-flag/issues/new/choose) repository.
