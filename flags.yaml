@@ -1,0 +1,6 @@
+color-box:
+  percentage: 100
+  true: green
+  false: red
+  default: grey
+  disable: false
