@@ -1,3 +1,5 @@
+⚠️ ⚠️ ⚠️ This repo is not used anymore. The **demo** has been moved into the main repository for GO Feature Flag in v1.0.0 and is now available directly in the main repository [thomaspoignant/go-feature-flag](https://github.com/thomaspoignant/go-feature-flag) ⚠️ ⚠️ ⚠️
+
 # GO Feature Flag demo
 
 This repository contains a demo app using the library [`thomaspoignant/go-feature-flag`](https://github.com/thomaspoignant/go-feature-flag) which display a webapp containing a grid of users.  
